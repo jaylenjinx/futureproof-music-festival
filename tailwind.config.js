@@ -12,9 +12,10 @@ module.exports = {
 				permanentMarker: ["Permanent Marker", "sans-serif"],
 				poppins: ["Poppins", "sans-serif"],
 				rockSalt: ["Rock Salt", "sans-serif"],
+				warpDrive:  ["Warp Drive", "sans-serif"],
 			},
 			colors: {
-				"fluo-green": "#43ffb6",
+				"fluo-green": "#AE6229",
 				"yellow-btn-primary": "#ffc621",
 				"medium-gray": "#bebebe",
 			},

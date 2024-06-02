@@ -19,7 +19,8 @@ export default function Footer() {
 				</div>
 				<div className="bg-fluo-green pt-3 relative z-[100]">
 					<Container customClasses="flex justify-between items-center">
-						<Image className="max-w-[10rem] lg:max-w-[15rem] h-auto" src="/logo-landscape.png" width={815} height={144} alt="Footer logo" />
+						{/*<Image className="max-w-[10rem] lg:max-w-[15rem] h-auto" src="/logo-landscape.png" width={815} height={144} alt="Footer logo" />*/}
+						<h4 className="text-white font-warpDrive text-xl">FUTUREPROOF</h4>
 						<div className="flex gap-3 md:gap-4">
 							<svg fill="#FFFFFF" className="max-w-[1.5rem] h-auto lg:max-w-none" width="52" height="52" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.71 51.71">
 								<path d="m33.31,22.59h-4v-5.37h3.26c.58,0,1.05-.42,1.05-1.05v-5.58c0-.58-.42-1.05-1.05-1.05h-3.84c-4.16,0-7.05,2.95-7.05,7.31v5.63h-4.63c-.74,0-1.42.58-1.42,1.42v3.79c0,.74.58,1.42,1.42,1.42h4.52v11.63c0,.74.58,1.42,1.42,1.42h4.94c.32,0,.58-.16.79-.37s.37-.58.37-.89v-11.73h3.47c.68,0,1.21-.42,1.32-1.05v-.11l.74-3.63c.05-.37,0-.79-.32-1.21-.11-.26-.58-.53-1-.58Z" />
@@ -35,14 +36,8 @@ export default function Footer() {
 							</svg>
 						</div>
 					</Container>
-					<div className="bg-black text-white mt-2 py-2">
-						<p className="text-[0.7rem] text-center leading-tight mb-1">
-							Website powered by{" "}
-							<a className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600" href="https://www.paninopanini.co.uk/" target="_blank" rel="noreferrer">
-								Panino Panini
-							</a>{" "}
-							😎
-						</p>
+					<div className="bg-fluo-green text-white mt-2 py-0.5">
+						
 					</div>
 				</div>
 			</footer>

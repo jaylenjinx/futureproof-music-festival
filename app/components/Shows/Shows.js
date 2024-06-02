@@ -42,7 +42,7 @@ export default function Shows() {
 	}, [scrollableDivRef]);
 
 	return (
-		<section id="shows" className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-[32rem] lg:h-screen lg:min-h-[45rem] lg:max-h-[49rem] lg:mt-56 reveal${isIntersecting ? " visible" : ""}`} ref={showsContainerRef}>
+		<section id="shows" className={`w-full relative mt-16 bg-incoming-shows bg-cover bg-no-repeat bg-center h-[40rem] lg:h-screen lg:min-h-[24rem] lg:max-h-[48rem] lg:mt-56 reveal${isIntersecting ? " visible" : ""}`} ref={showsContainerRef}>
 			<Container customClasses="pb-2.5 h-full">
 				<div className="flex flex-col items-center text-white pt-11">
 					<h2 className="text-2xl font-bold lg:text-4xl">Incoming Shows &#127928;</h2>
@@ -52,10 +52,10 @@ export default function Shows() {
 					<TourDates />
 				</div>
 
-				<div className={`absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center transition${!isScrollMoreVisible ? " opacity-0" : ""}`} onClick={clickHandler}>
+				{/*<div className={`absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center transition${!isScrollMoreVisible ? " opacity-0" : ""}`} onClick={clickHandler}>
 					<p className="text-yellow-btn-primary text-sm underline cursor-pointer">Show more</p>
 					<ArrowBottom />
-				</div>
+	</div>*/}
 			</Container>
 			<div className="absolute w-full h-full top-0 left-0 bg-hero-pattern bg-repeat z-[-1]"></div>
 		</section>

@@ -14,24 +14,24 @@ const observerOptions = {
 const tourDates = [
 	{
 		id: 1,
-		date: "19 Oct",
-		dayTime: "Friday 20.30 - 23.00",
-		venue: "The O2, Isla Square",
-		city: "London",
+		date: "29 Jun",
+		dayTime: "Sundaze but not Sundaze",
+		venue: "Set Times TBA",
+		city: "Red Rattler, Marrickville",
 	},
 	{
 		id: 2,
-		date: "22 Nov",
-		dayTime: "Wednesday 20.00 - 22.00",
-		venue: "Roundhouse, Chalk Bag Rd",
-		city: "Rome",
+		date: "4 Aug",
+		dayTime: "Generate Music Festival",
+		venue: "Set Times TBA",
+		city: "Yeo Park, Ashfield",
 	},
 	{
 		id: 3,
-		date: "10 Dec",
-		dayTime: "Saturday 20.00 - 22.00",
-		venue: "200 Camden High St",
-		city: "New York",
+		date: "16 Nov",
+		dayTime: "Graduates",
+		venue: "Set Times TBA",
+		city: "TBA",
 	},
 ];
 
@@ -40,37 +40,31 @@ export default function IntroTourDates() {
 	const isIntersecting = useIsIntersecting(observerOptions, sectionRef);
 	return (
 		<div className={`flex flex-col justify-center items-center reveal lg:justify-end lg:items-end${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
-			<h2 className="text-white font-permanentMarker text-2xl md:text-3xl lg:text-4xl">⚡ Free Template ⚡</h2>
+			<h2 className="text-white font-permanentMarker text-2xl md:text-3xl lg:text-4xl">Upcoming Shows</h2>
 			<ul className="list-none">
 				{tourDates.map((gig) => {
 					return (
 						<li key={gig.id} className="flex items-center my-10 justify-between text-xl md:justify-end md:text-2xl lg:text-2xl xl:text-3xl">
-							<div className="flex flex-col justify-center items-center date w-[4.7rem] h-[4.7rem] p-2 bg-fluo-green mr-4 text-2xl rounded-md border-8 border-white md:mr-12 lg:w-[5.5rem] lg:h-[5.5rem]">
-								<p className="font-bold text-xl text-[#6f705f] leading-none text-center uppercase lg:text-3xl">{gig.date}</p>
+							<div className="flex flex-col justify-center items-center date w-[4.7rem] h-[4.7rem] p-2 bg-fluo-green mr-4 text-2xl rounded-md md:mr-12 lg:w-[5.5rem] lg:h-[5.5rem]">
+								<p className="font-bold text-xl text-white leading-none text-center uppercase lg:text-3xl">{gig.date}</p>
 							</div>
 							<div className="text-white text-right leading-none md:mr-12">
-								<p>{gig.dayTime}</p>
-								<p>{gig.venue}</p>
+								<p style={{width: 400}}>{gig.dayTime}</p>
+								<p class="venue">{gig.venue}</p>
 								<div className="flex justify-end md:hidden">
 									<MapMapper extraClasses="fill-amber-400 mr-2" />
-									<p>{gig.city}</p>
+									<p style={{width: 400}}>{gig.city}</p>
 								</div>
 							</div>
 							<div className="hidden text-right text-white leading-none md:flex">
 								<MapMapper extraClasses="fill-amber-400 mr-2" />
-								<p>{gig.city}</p>
+								<p style={{width: 200}}>{gig.city}</p>
 							</div>
 						</li>
 					);
 				})}
 			</ul>
 			<div className="hidden gap-x-3 lg:flex">
-				<a href="https://github.com/stefanogali/panic-panini-next" target="_blank" rel="noreferrer">
-					<ButtonPrimary customClasses="flex gap-x-1 ">
-						<Github extraClasses="w-5 fill-white" />
-						Github Repo
-					</ButtonPrimary>
-				</a>
 				<ScrollTo toId="shows" duration={1500}>
 					<ButtonPrimary>Find out more</ButtonPrimary>
 				</ScrollTo>

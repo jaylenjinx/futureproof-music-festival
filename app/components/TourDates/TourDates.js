@@ -1,23 +1,38 @@
 import ButtonPrimary from "@/app/global-components/ButtonPrimary/ButtonPrimary";
 
+const handleClick = (myLink) => () => {
+	window.location.href=myLink;
+}
+
 const tourDates = [
 	{
 		id: 1,
-		date: "19 Oct",
-		day: "Friday",
-		time: "20.30 - 23.00",
-		venue: "The O2, Isla Square",
-		city: "London",
+		date: "29 Jun",
+		day: "Sundaze but not Sundaze",
+		time: "TBA",
+		venue: "Red Rattler, Faversham St",
+		city: "Marrickville",
+		tickets: "google.com",
 	},
 	{
 		id: 2,
-		date: "22 Nov",
-		day: "Wednesday",
-		time: "20.00 - 22.00",
-		venue: "Roundhouse, Chalk Bag Rd",
-		city: "London",
+		date: "4 Aug",
+		day: "Generate Music Festival",
+		time: "TBA",
+		venue: "Yeo Park, Victoria St",
+		city: "Ashfield",
+		tickets: "",
 	},
 	{
+		id: 1,
+		date: "16 Nov",
+		day: "Graduates",
+		time: "TBA",
+		venue: "TBA",
+		city: "TBA",
+		tickets: "",
+	},
+	/*{
 		id: 3,
 		date: "10 Dec",
 		day: "Saturday",
@@ -104,7 +119,7 @@ const tourDates = [
 		time: "21.30 - 23.30",
 		venue: "The Electric Fox, 389 Fox Road",
 		city: "Los Angeles",
-	},
+	},*/
 ];
 
 export default function TourDates() {
@@ -127,9 +142,11 @@ export default function TourDates() {
 								<p>{gig.venue}</p>
 								<p>{gig.city}</p>
 							</div>
-							<div className="ml-2.5 lg:ml-auto">
-								<ButtonPrimary customClasses="text-xs md:text-sm lg:text-base">Get Ticket</ButtonPrimary>
-							</div>
+							{/*<div className="ml-2.5 lg:ml-auto">
+								<div onClick={handleClick(gig.tickets)}>
+									<ButtonPrimary customClasses="text-xs md:text-sm lg:text-base">Get Ticket</ButtonPrimary>
+								</div>
+							</div>*/}
 						</div>
 					</li>
 				);

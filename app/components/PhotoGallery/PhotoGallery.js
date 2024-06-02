@@ -76,31 +76,11 @@ export default function PhotoGallery() {
 	};
 
 	return (
-		<section id="photo-gallery" className={`w-full mt-16 pb-14 lg:mt-56 lg:pb-56 lg:mb-[22.5rem] reveal${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
+		<section id="photo-gallery" className={`w-full mt-1 pb-2 lg:mt-20 lg:pb-20 lg:mb-[22.5rem] reveal${isIntersecting ? " visible" : ""}`} ref={sectionRef}>
 			<Container>
-				<h2 className="font-bold text-6xl pb-6">Gallery</h2>
-				<p>Past shows.</p>
-				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5">
-					{galleryThumbnails.map((item, index) => {
-						return (
-							<div className="flex flex-col mb-5 leading-none" key={item.id}>
-								<div className="w-full h-full rounded-lg bg-fluo-green transition-all">
-									<Image className="rounded-lg cursor-pointer hover:opacity-60 transition-all" src={item.src} width={400} height={400} alt="Gallery gig thumbnail" onClick={() => clickHandler(index)} />
-								</div>
-								<h5 className="text-sm md:text-lg xl:text-xl font-medium">{item.club}</h5>
-								<span className="flex">
-									<MapMapper />
-									<h5 className="ml-2 text-sm md:text-lg">{item.city}</h5>
-								</span>
-								<span className="flex">
-									<Calendar />
-									<h5 className="ml-2 text-sm md:text-lg">{item.date}</h5>
-								</span>
-							</div>
-						);
-					})}
-					<Lightbox open={openGallery} close={() => setOpenGallery(false)} slides={galleryThumbnails[galleryIndex].slides} />
-				</div>
+				
+				{/*<h2 className="font-bold text-6xl pb-6">Coming Soon!</h2>*/}
+				
 			</Container>
 		</section>
 	);
