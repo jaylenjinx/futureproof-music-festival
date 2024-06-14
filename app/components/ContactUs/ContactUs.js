@@ -23,15 +23,10 @@ export default function ContactUs() {
 					<div className="flex flex-col max-w-4xl lg:text-right">
 						<h2 className="font-bold text-6xl pb-6">Contact us</h2>
 						<p>
-							And get us a drink in case you around. <br></br>Email us at{" "}
-							<a className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600" href="https://www.paninopanini.co.uk/" target="_blank" rel="noreferrer">
-								{" "}
-								hello@panicpanini.com{" "}
-							</a>{" "}
-							or fill the form below.
+							And come say hi in case you're around.
 						</p>
 					</div>
-					<ContactForm />
+					{/*<ContactForm />*/}
 				</div>
 			</Container>
 			<Image className="mt-10 lg:hidden" src="/contacts-mobile.jpg" width={1000} height={486} alt="Band playing" />

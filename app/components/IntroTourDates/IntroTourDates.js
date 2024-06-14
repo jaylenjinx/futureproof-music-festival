@@ -15,22 +15,22 @@ const tourDates = [
 	{
 		id: 1,
 		date: "29 Jun",
-		dayTime: "Sundaze but not Sundaze",
-		venue: "Set Times TBA",
-		city: "Red Rattler, Marrickville",
+		dayTime: "Winter Jam",
+		venue: "\"Hot Loud & Proud\"",
+		city: "107 Studios, Redfern",
 	},
 	{
 		id: 2,
 		date: "4 Aug",
 		dayTime: "Generate Music Festival",
-		venue: "Set Times TBA",
+		venue: "\"Fun for the Fam\"",
 		city: "Yeo Park, Ashfield",
 	},
 	{
 		id: 3,
 		date: "16 Nov",
 		dayTime: "Graduates",
-		venue: "Set Times TBA",
+		venue: "\"Celebrate our Brightest\"",
 		city: "TBA",
 	},
 ];

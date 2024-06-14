@@ -19,7 +19,7 @@ export default function Listen() {
 			<Container customClasses="flex flex-col lg:flex-row">
 				<div className="flex flex-col justify-center basis-2/4 lg:max-w-lg xl:max-w-2xl 2xl:max-w-4xl">
 					<p>As heard on ABC Radio:</p>
-					<h2 className="font-bold text-6xl pb-6">Do you here me EP</h2>
+					<h2 className="font-bold text-6xl pb-6">Do you hear me EP</h2>
 					<div className="flex items-center pt-4 gap-4">
 						<a href="https://open.spotify.com/album/6eEPULW6Ew0fOUdxFzpoQH"><Spotify /></a>
 						<a href="https://www.youtube.com/playlist?list=OLAK5uy_mRsA0L7FcdQhDkzcdqsQjZCETHlTJLqMg"><Youtube /></a>
