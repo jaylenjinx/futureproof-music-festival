@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
 			className={`${poppins.variable} ${permanentMarker.variable} ${rockSalt.variable}`}>
 			<body className={`${poppins.className} font-rendering text-2xl xl:text-3xl`}>
 				{children}
-				<Footer />
+				{/*<Footer />*/}
 			</body>
 		</html>
 	);
