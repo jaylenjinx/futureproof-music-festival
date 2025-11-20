@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import Container from "@/app/global-components/Container/Container";
-import { Spotify, SoundCloud, Youtube, AppleMusic } from "@/app/svg-icons/svg-icons";
+import { Spotify, SoundCloud, BandCamp, AppleMusic } from "@/app/svg-icons/svg-icons";
 
 export default function Video() {
 	const textRef = useRef(null);
@@ -24,18 +24,18 @@ export default function Video() {
 					<div className="overflow-hidden">
 						<h2
 							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
-							Do You Hear Me
+							The Diary of a Songwriter
 						</h2>
 					</div>
 					<div className="flex items-center pt-4 gap-4">
-						<a href="https://open.spotify.com/album/6eEPULW6Ew0fOUdxFzpoQH"><Spotify /></a>
-						<a href="https://www.youtube.com/playlist?list=OLAK5uy_mRsA0L7FcdQhDkzcdqsQjZCETHlTJLqMg"><Youtube /></a>
-						<a href="https://music.apple.com/au/album/do-you-hear-me-ep/1700983625"><AppleMusic /></a>
+						<a href="https://ajstanton.bandcamp.com/album/the-diary-of-the-songwriter-2"><BandCamp /></a>
+						<a href="https://open.spotify.com/album/7tyjdD7hH7wVjYGnTDEgVD"><Spotify /></a>
+						<a href="https://music.apple.com/gb/album/the-diary-of-the-songwriter/1639032490"><AppleMusic /></a>
 					</div>
 				</div>
-				<div className="flex justify-end items-center mt-5 basis-2/4 lg:max-w-lg lg:mt-0 xl:max-w-2xl 2xl:max-w-4xl">
-					<iframe src="https://open.spotify.com/embed/album/6eEPULW6Ew0fOUdxFzpoQH?utm_source=generator"
-							width="80%" height="450" frameBorder="0" allowFullScreen=""
+				<div className="flex justify-end items-center mt-5 basis-2/4 lg:max-w-lg lg:mt-0 xl:max-w-2xl 2xl:max-w-4xl">					
+					<iframe src="https://bandcamp.com/EmbeddedPlayer/album=2272656426/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=true/transparent=false"
+							width="80%" height="600" frameBorder="0" allowFullScreen=""
 							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
 							loading="lazy"></iframe>
 				</div>

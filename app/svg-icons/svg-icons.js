@@ -11,6 +11,123 @@ export const ArrowBottom = () => {
 	);
 };
 
+export const BandCamp = () => {
+	return (
+		<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    id="svg2"
+	width="52"
+	height="52"
+    version="1.1"
+    viewBox="0 0 682.667 682.667"
+  >
+    <defs id="defs6">
+      <clipPath id="clipPath20" clipPathUnits="userSpaceOnUse">
+        <path
+          id="path18"
+          d="M2560 0c1413.85 0 2560 1146.15 2560 2560S3973.85 5120 2560 5120 0 3973.85 0 2560 1146.15 0 2560 0"
+          clipRule="evenodd"
+        ></path>
+      </clipPath>
+      <clipPath id="clipPath26" clipPathUnits="userSpaceOnUse">
+        <path id="path24" d="M0 0h5120v5120H0Z"></path>
+      </clipPath>
+      <clipPath id="clipPath36" clipPathUnits="userSpaceOnUse">
+        <path
+          id="path34"
+          d="M3248.57 2735.96c-183.49 0-277.25-144.42-277.25-362 0-205.66 101.38-360.04 277.25-360.04 198.89 0 273.45 182.02 273.45 360.04-.14 185.9-93.84 362-273.51 362M2761 3275.92h217.97v-522.15h3.85c59.28 98.87 183.55 160.21 294.46 160.21 311.63 0 462.74-245.35 462.74-544.05 0-274.84-133.84-533.97-426.43-533.97-133.85 0-277.25 33.54-342.29 168.09h-3.78v-140.51h-206.53v1412.35z"
+          clipRule="evenodd"
+        ></path>
+      </clipPath>
+      <clipPath id="clipPath42" clipPathUnits="userSpaceOnUse">
+        <path id="path40" d="M0 0h5120v5120H0Z"></path>
+      </clipPath>
+      <clipPath id="clipPath52" clipPathUnits="userSpaceOnUse">
+        <path
+          id="path50"
+          d="M4543.89 2544.02c-17.22 124.62-105.15 191.92-225.61 191.92-112.87 0-271.54-61.35-271.54-371.91 0-170.13 72.64-350.15 261.97-350.15 126.18 0 214.11 87.14 235.18 233.51h217.97c-40.16-265.06-198.84-411.43-453.15-411.43-309.78 0-479.95 227.42-479.95 528.07 0 308.56 162.53 549.89 487.6 549.89 229.44 0 424.54-118.68 445.5-369.91h-217.61z"
+          clipRule="evenodd"
+        ></path>
+      </clipPath>
+      <clipPath id="clipPath58" clipPathUnits="userSpaceOnUse">
+        <path id="path56" d="M0 0h5120v5120H0Z"></path>
+      </clipPath>
+      <clipPath id="clipPath68" clipPathUnits="userSpaceOnUse">
+        <path
+          id="path66"
+          d="M1998.95 1866.62H364.078l763.462 1409.3h1634.88z"
+          clipRule="evenodd"
+        ></path>
+      </clipPath>
+      <clipPath id="clipPath74" clipPathUnits="userSpaceOnUse">
+        <path id="path72" d="M0 0h5120v5120H0Z"></path>
+      </clipPath>
+    </defs>
+    <g id="g10" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+      <g id="g12" transform="scale(.1)">
+        <g id="g14">
+          <g id="g16" clipPath="url(#clipPath20)">
+            <g id="g22" clipPath="url(#clipPath26)">
+              <path
+                id="path28"
+                fill="#000"
+                fillOpacity="1"
+                fillRule="nonzero"
+                stroke="none"
+                d="M0 0h5170v5170H0Z"
+              ></path>
+            </g>
+          </g>
+        </g>
+        <g id="g30">
+          <g id="g32" clipPath="url(#clipPath36)">
+            <g id="g38" clipPath="url(#clipPath42)">
+              <path
+                id="path44"
+                fill="#fff"
+                fillOpacity="1"
+                fillRule="nonzero"
+                stroke="none"
+                d="M2710.99 1785.96h1079.03v1539.96H2710.99Z"
+              ></path>
+            </g>
+          </g>
+        </g>
+        <g id="g46">
+          <g id="g48" clipPath="url(#clipPath52)">
+            <g id="g54" clipPath="url(#clipPath58)">
+              <path
+                id="path60"
+                fill="#fff"
+                fillOpacity="1"
+                fillRule="nonzero"
+                stroke="none"
+                d="M3778.76 1785.96h1033.1v1177.96h-1033.1z"
+              ></path>
+            </g>
+          </g>
+        </g>
+        <g id="g62">
+          <g id="g64" clipPath="url(#clipPath68)">
+            <g id="g70" clipPath="url(#clipPath74)">
+              <path
+                id="path76"
+                fill="#fff"
+                fillOpacity="1"
+                fillRule="nonzero"
+                stroke="none"
+                d="M314.078 1816.62h2498.34v1509.3H314.078Z"
+              ></path>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+	);
+};
+
 export const Spotify = () => {
 	return (
 		<svg

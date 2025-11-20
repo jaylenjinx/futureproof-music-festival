@@ -40,7 +40,7 @@ export default function IntroTourDates() {
 	const isInView = useInView(sectionRef, { once: true });
 	return (
 		<div
-			className={`flex flex-col justify-center items-center lg:justify-end lg:items-end`}
+			className={`flex flex-col bg-black/40 border-25 border-black/1 rounded-xl justify-center items-center lg:justify-end lg:items-end`}
 			style={{
 				transform: isInView ? "none" : "translateY(-100px)",
 				opacity: isInView ? 1 : 0,
