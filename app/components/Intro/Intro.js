@@ -8,6 +8,7 @@ import NewAlbum from "../NewAlbum/NewAlbum";
 import BackToTop from "../BackToTop/BackToTop";
 import { useInView } from "framer-motion";
 import CookieConsent from "react-cookie-consent";
+import Image from "next/image";
 
 const observerOptions = {
 	rootMargin: "0px",
@@ -37,11 +38,21 @@ export default function Intro() {
 			<div className="absolute w-full h-full top-0 left-0">
 				<div className="absolute w-full h-full top-0 left-0 bg-linear-to-b from-purple-500 to-pink-500 opacity-10"></div>
 				<div className="absolute w-full h-full top-0 left-0 bg-hero-pattern bg-repeat"></div>
+
+				{/*<Image
+					className="rounded-lg cursor-pointer hover:opacity-60 transition-all"
+					src={"/introbg.jpg"}
+					width={10000}
+					height={372}
+					alt="Gallery gig thumbnail"
+				/>*/}
+
 				<video
 					autoPlay
 					muted
 					loop
 					poster="/frame-band.jpg"
+					loading="lazy"
 					className="object-cover w-full h-full z-10 brightness-50"
 					playsInline>
 					<source src="./video-band.webm" type="video/webm" />

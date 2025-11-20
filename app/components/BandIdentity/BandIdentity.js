@@ -24,7 +24,7 @@ export default function BandIdentity() {
 					</ScrollTo>
 				</Container>
 			</div>
-			<div className="hidden h-full flex-col justify-between grow-0 shrink-0 bg-black z-10 bg-opacity-30 lg:flex">
+			<div className="hidden h-full flex-col justify-between grow-0 shrink-0 z-10 bg-opacity-30 lg:flex">
 				<div className="logo-container py-4">
 					{/*<Image
 						className="px-12 py-3 max-w-75 h-auto"
@@ -33,11 +33,16 @@ export default function BandIdentity() {
 						height={236}
 						alt="Panic Panini logo"
 					/>*/}
-					<h2 className="text-white translate-y-6 text-center px-8 font-warp-drive text-5xl">FUTURE</h2>
-					<h2 className="text-white translate-y-6 text-center px-8 font-warp-drive text-5xl">PROOF</h2>
+					<div className="translate-x-5 py-7 translate-y-6 bg-black border-2 border-white rounded-lg">
+						<h2 className="translate-x-0.5 translate-y-1 text-white text-center px-8 font-warp-drive text-5xl">FUTURE</h2>
+						<h2 className="translate-x-0.5 translate-y-1 text-white text-center px-8 font-warp-drive text-5xl">PROOF</h2>
+					</div>
 				</div>
-				<NewAlbum />
-				
+				<div className="logo-container py-4 px-5">
+					<div className="translate-x-2 py-3 translate-y-[-60] bg-black border-2 border-white rounded-lg">
+						<NewAlbum />
+					</div>
+				</div>
 			</div>
 		</>
 	);
