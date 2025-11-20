@@ -25,8 +25,8 @@ const rockSalt = Rock_Salt({
 });
 
 export const metadata = {
-	title: "Free Next.js Music band starter template | by Panino Panini",
-	description: "Free Next.js rock'n'roll band starter template to clone/fork from my Github page.",
+	title: "Futureproof Music Festival",
+	description: "Youth Music Festival hosted in Sydney, Australia!",
 	verification: {
 		google: "ephPAYWfbfSOHHWnGeqEHiOPuxTXr300eIzTmT2oJcY",
 	},
