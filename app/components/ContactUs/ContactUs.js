@@ -45,8 +45,11 @@ export default function ContactUs() {
 							To our newsletter to get the latest updates and live gigs info, or contact us on instagram or Facebook :D
 						</p>
 					</div>
-					<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/connect-with-futureproof-youth-music-fest?format=js&source=widget'></script><div id='can-form-area-connect-with-futureproof-youth-music-fest' style='width: 100%'></div>
-					
+									<iframe>
+					<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' />
+									<script src='https://actionnetwork.org/widgets/v5/form/connect-with-futureproof-youth-music-fest?format=js&source=widget'></script>
+									<div id='can-form-area-connect-with-futureproof-youth-music-fest' style='width: 100%'></div>
+									</iframe>
 				</div>
 				
 			</Container>
